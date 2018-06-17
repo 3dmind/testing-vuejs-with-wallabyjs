@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter render 1`] = `
+<div>
+  <p>
+    Counter: 0
+  </p>
+</div>
+`;
