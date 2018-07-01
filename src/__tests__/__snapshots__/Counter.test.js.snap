@@ -2,8 +2,10 @@
 
 exports[`Counter render 1`] = `
 <div>
-  <p>
+  <p class="even">
     Counter: 0
   </p>
+  <button>+1</button>
+  <button>-1</button>
 </div>
 `;
