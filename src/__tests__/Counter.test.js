@@ -20,7 +20,6 @@ describe('Counter', () => {
     expect(wrapper.vm.count).toBe(0)
   })
 
-/*
   test('increment count', () => {
     expect.assertions(1)
     const wrapper = shallowMount(Counter, {localVue})
@@ -29,9 +28,7 @@ describe('Counter', () => {
 
     expect(wrapper.vm.count).toBe(1)
   })
-*/
 
-/*
   test('decrement count', () => {
     expect.assertions(1)
     const wrapper = shallowMount(Counter, {
@@ -43,5 +40,4 @@ describe('Counter', () => {
 
     expect(wrapper.vm.count).toBe(0)
   })
-*/
 })
