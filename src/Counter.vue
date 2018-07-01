@@ -1,8 +1,10 @@
 <template>
   <div>
-    <p>
+    <p :class="className">
       Counter: {{count}}
     </p>
+    <button @click="increment">+1</button>
+    <button @click="decrement">-1</button>
   </div>
 </template>
 
